@@ -1,5 +1,5 @@
 #!/bin/bash
 mv ipscan.py /data/data/com.termux/files/usr/bin/ipscan
 chmod +x /data/data/com.termux/files/usr/bin/ipscan
-pip install -r requirements.txt
+pip install requests colorama
 echo -e '\033[32mSuccesfuly installed! Usage:\033[0m\n\nipscan [\033[34mip\033[0m]'
