@@ -2,4 +2,4 @@
 mv ipscan.py /data/data/com.termux/files/usr/bin/ipscan
 chmod +x /data/data/com.termux/files/usr/bin/ipscan
 pip install -r requirements.txt
-echo '\033[32mSuccesfuly installed! Usage:\n\nipscan [\033[34mip\033[0m]'
+echo -e '\033[32mSuccesfuly installed! Usage:\n\nipscan [\033[34mip\033[0m]'
